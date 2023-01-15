@@ -16,4 +16,7 @@ phases:
       - echo Build completed on `date`
 artifacts:
   files:
-    - target/my-profile-2.0.jar
+    - 'application.jar'
+    name: application.jar
+    discard-paths: no
+    base-directory: 'application/build/libs'
