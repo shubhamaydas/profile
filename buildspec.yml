@@ -16,4 +16,4 @@ phases:
       - echo Build completed on `date`
 artifacts:
   files:
-    - target/my-profile-1.0.jar
+    - target/my-profile-2.0.jar
