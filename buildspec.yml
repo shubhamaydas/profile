@@ -17,6 +17,7 @@ phases:
 artifacts:
   files:
     - 'application.jar'
-    name: application.jar
-    discard-paths: no
-    base-directory: 'application/build/libs'
+    - '.platform/**/*'
+  name: application.jar
+  discard-paths: no
+  base-directory: 'application/build/libs'
