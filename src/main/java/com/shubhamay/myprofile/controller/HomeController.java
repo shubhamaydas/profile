@@ -14,4 +14,9 @@ public class HomeController {
     }
 
 
+    @GetMapping("/register")
+    String getRegistration(Model model) {
+        model.addAttribute("something","This");
+        return "home";
+    }
 }
