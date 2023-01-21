@@ -17,6 +17,12 @@ public class HomeController {
     @GetMapping("/register")
     String getRegistration(Model model) {
         model.addAttribute("something","This");
-        return "home";
+        return "register";
+    }
+
+    @GetMapping("/login")
+    String getLogin(Model model) {
+        model.addAttribute("something","This");
+        return "login";
     }
 }
